@@ -1,0 +1,145 @@
+.body{
+    background: rgb(255, 233, 238);
+    font-family: Roboto Serif;
+
+}
+.navbar{
+    position: fixed;
+}
+#home{
+    background-image: url(pictures/background.avif);
+    width: 100%;
+    height: 100vh;
+    background-size:cover;
+    background-repeat:no-repeat; 
+    background-position: center;
+
+}
+.header-text{
+    position: absolute;
+   top: 40%;
+   text-align: center;
+}
+.sub-title{
+    font-size: 55px;
+    color: rgb(189, 83, 101);
+    
+}
+a.link-to-menu{
+    background: rgb(141, 111, 116);
+    border: none;
+    padding: 10px;
+    align-items: center;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    
+}
+/* #services{
+    padding: 30px 0;
+  } */
+
+.list-group{
+    font-size: 11px;
+    font-weight: 100;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.col-6{
+    font-size: 23px;
+}
+ul li span {
+    position: relative;
+    left: -1px;
+  }
+.price{
+    font-weight: 300;
+    font-size: 14px;
+    color: rgb(162, 4, 80);
+}
+
+.title{
+    font-size: 60px;
+}
+.bs-linebreak {
+    height:10px;
+    font-weight:100;
+  }
+.col{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 23px;
+}
+.menu1{
+    margin-left: 45px;
+    margin-bottom: 10px;
+}
+.menu2{
+    margin-left: 45px;
+    margin-bottom: 10px;
+    color: rgb(162, 4, 80);
+}
+.item{
+    flex: 0 0 auto;
+    max-width: 80%; 
+    padding-left: 20px;
+}
+.number{
+    flex: 0 0 auto;
+}
+
+#gallery{
+    background-image: url(pictures/background2.avif);
+    width: 100%;
+    height: 140vh;
+    background-size:cover;
+    background-repeat:no-repeat; 
+    background-position: center;
+    margin-top: 100px;
+}
+.sample{
+    height:100%; 
+    border: none;
+    object-position: center;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border-radius: 1px;
+    max-width:100%;
+
+}
+.hour{
+    font-size: 14px;
+    margin-left: 50px; 
+}
+.icon{
+    text-decoration: none;
+    color: rgb(162, 4, 80);
+    font-size: 23px;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+.copyright{
+    background-color:rgb(162, 4, 80);
+    width: 100%;
+    color: white;
+    font-weight: 200;
+    font-size: 18px;
+    margin-top: 24px;
+ 
+}
+@media (max-width: 600px) {
+    #gallery {
+        background-image: url(pictures/background2.avif);
+         width: 100%;
+        height: 80vh;
+    }
+    .title{
+        font-size: 40px;
+    }
+    h2{
+        font-size: 8px;
+    }
+}
